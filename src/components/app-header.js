@@ -3,10 +3,10 @@ import React from 'react';
 const AppHeader = () => {
     return (
         <div className='app-header d-flex'>
-            <div>Alexey Trofimenko</div>
-            <div>5 записей, из них понравилось 0</div>
+            <h1>Alexey Trofimenko</h1>
+            <h2>5 записей, из них понравилось 0</h2>
         </div>
     )
 }
 
-export default AppHeader
+export default AppHeader;
